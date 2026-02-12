@@ -1,8 +1,8 @@
 [package]
 name = "cysec-proj"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
-authors = ["Vinayak Vishwanathan]
+authors = ["Vinayak Vishwanathan"]
 
 [dependencies]
 walkdir = "2"
