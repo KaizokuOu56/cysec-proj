@@ -1,0 +1,13 @@
+[Unit]
+Description=File Integrity Monitor Daily Scan Timer
+Documentation=file:///opt/fim/README.md
+Requires=fim.service
+
+[Timer]
+OnBootSec=5min
+OnUnitActiveSec=1d
+OnCalendar=*-*-* 02:00:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target

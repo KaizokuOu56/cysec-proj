@@ -1,1 +1,30 @@
+# Rust build artifacts
 /target
+Cargo.lock
+
+# Environment files with secrets
+.env
+.env.local
+
+# Log files
+*.log
+/logs/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temporary files
+*.tmp
+.tmp/
+
+# OS-specific files
+Thumbs.db
+
+# Database files (local development only)
+*.db
+*.sqlite
